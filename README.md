@@ -8,6 +8,6 @@ Wrapper function triggers every script one after the other and may take a while.
 Number of conditions need change in some of the analysis by adding or removing '%' to ignore/reinstate the proper number of conditions (up to 8).
 
 These scripts were written by Jonathan Millet to make the analysis for the following research paper:
-https://www.biorxiv.org/content/biorxiv/early/2021/05/10/2021.05.10.443141.full.pdf
+https://www.biorxiv.org/content/10.1101/2021.05.10.443141v3
 
 contact: jonathan.r.m.millet@gmail.com
