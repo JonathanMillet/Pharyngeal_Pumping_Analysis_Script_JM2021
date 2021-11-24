@@ -8,7 +8,7 @@ tablemeanIPIdur = zeros(tablelength, 8);
 
 tablemeanIPIdur(1:length(PPdata1.TotalIPI),1) = [PPdata1.TotalIPI]; tablename(1) = [convertCharsToStrings(PPdata1.name)];
 tablemeanIPIdur(1:length(PPdata2.TotalIPI),2) = [PPdata2.TotalIPI]; tablename(2) = [convertCharsToStrings(PPdata2.name)];
-%tablemeanIPIdur(1:length(PPdata3.TotalIPI),3) = [PPdata3.TotalIPI]; tablename(3) = [convertCharsToStrings(PPdata3.name)];
+tablemeanIPIdur(1:length(PPdata3.TotalIPI),3) = [PPdata3.TotalIPI]; tablename(3) = [convertCharsToStrings(PPdata3.name)];
 %tablemeanIPIdur(1:length(PPdata4.TotalIPI),4) = [PPdata4.TotalIPI]; tablename(4) = [convertCharsToStrings(PPdata4.name)];
 %tablemeanIPIdur(1:length(PPdata5.TotalIPI),5) = [PPdata5.TotalIPI]; tablename(5) = [convertCharsToStrings(PPdata5.name)];
 %tablemeanIPIdur(1:length(PPdata6.TotalIPI),6) = [PPdata6.TotalIPI]; tablename(6) = [convertCharsToStrings(PPdata6.name)];
@@ -25,7 +25,7 @@ clear tablemeanIPIdur tablelength tablename cellmeanIPIdur;
 
 IPIPDFHist(PPdata1.name,PPdata1.TotalIPI,'#000000','PPdata1-IPIDistHist.pdf')
 IPIPDFHist(PPdata2.name,PPdata2.TotalIPI,'#C82929','PPdata2-IPIDistHist.pdf')
-%IPIPDFHist(PPdata3.name,PPdata3.TotalIPI,'#1C76BC','PPdata3-IPIDistHist.pdf')
+IPIPDFHist(PPdata3.name,PPdata3.TotalIPI,'#1C76BC','PPdata3-IPIDistHist.pdf')
 %IPIPDFHist(PPdata4.name,PPdata4.TotalIPI,'#F7941D','PPdata4-IPIDistHist.pdf')
 %IPIPDFHist(PPdata5.name,PPdata5.TotalIPI,'#2AB673','PPdata5-IPIDistHist.pdf')
 %IPIPDFHist(PPdata6.name,PPdata6.TotalIPI,'#7E2F8E','PPdata6-IPIDistHist.pdf')

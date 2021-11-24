@@ -131,15 +131,13 @@ classdef PPdataClass < handle
             end
             writematrix(plop,namefile)
         end
-        function cleanmeanDur(obj)
+        function cleanIPIdur
             obj.meanDur(isnan(obj.meanDur))=0;
             obj.meanDur(isoutlier(obj.meanDur))=0;
             obj.meanDur=nonzeros(obj.meanDur);
-        end
-        function cleanIPIdur(obj)
             obj.IPIDur(isnan(obj.IPIDur))=0;
             obj.IPIDur(isoutlier(obj.IPIDur))=0;
             obj.IPIDur=nonzeros(obj.IPIDur);
-        end
+          
     end
 end
